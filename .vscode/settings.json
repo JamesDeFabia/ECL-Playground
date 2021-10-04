@@ -1,0 +1,4 @@
+{
+    "ecl.forceProxySupport": true,
+    "ecl.launchConfiguration": "HPCC-Platform"
+}
