@@ -37,5 +37,7 @@ vscode:
     - https://github.com/GordonSmith/vscode-ojs/releases/latest/download/gordonsmith.observable-js.vsix
 
 tasks:
+  - name: Start SSH
+    command: sudo service ssh start
   - name: Start HPCC-Systems Platform
     command: sudo /etc/init.d/hpcc-init start
