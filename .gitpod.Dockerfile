@@ -3,6 +3,8 @@ FROM gitpod/workspace-full
 RUN sudo apt-get -y update
 
 RUN sudo apt-get -y install openssh-server
+RUN sudo systemctl enable ssh
+RUN sudo systemctl start ssh
 
 # Install the hpcc-systems platform.
 WORKDIR /tmp
