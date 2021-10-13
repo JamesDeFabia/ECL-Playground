@@ -5,10 +5,12 @@ USER root
 RUN apt-get -y update
 RUN apt-get -y upgrade
 RUN apt-get -y install openssh-server
+RUN echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
+RUN ssh-keygen -A
 
-# RUN groupadd -g 10001 hpcc
-# RUN useradd -s /bin/bash -r -N -c "hpcc runtime User" -u 10000 -g hpcc hpcc
-# RUN passwd -l hpcc 
+RUN groupadd -g 10001 hpcc
+RUN useradd -s /bin/bash -r -N -c "hpcc runtime User" -u 10000 -g hpcc hpcc
+RUN passwd -l hpcc 
 
 # Install the hpcc-systems platform.
 WORKDIR /tmp
