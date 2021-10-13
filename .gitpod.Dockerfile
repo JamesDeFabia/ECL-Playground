@@ -5,6 +5,10 @@ RUN sudo apt-get -y update
 RUN sudo apt-get -y install openssh-server
 RUN sudo service ssh start
 
+RUN sudo groupadd -g 10001 hpcc
+RUN sudo useradd -s /bin/bash -r -N -c "hpcc runtime User" -u 10000 -g hpcc hpcc
+RUN sudo passwd -l hpcc 
+
 # Install the hpcc-systems platform.
 WORKDIR /tmp
 
