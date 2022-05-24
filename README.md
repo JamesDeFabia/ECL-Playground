@@ -4,7 +4,7 @@ ECL Playground for the HPCC-Systems big data Platform.  This demo utilises Gitpo
 
 ## Quick Start
 
-* Click [here](https://gitpod.io/#https://github.com/GordonSmith/ECL-Playground) to launch on Gitpod
+* Click [here](https://gitpod.io/#https://github.com/GordonSmith/ECL-Playground/tree/hpcc-platform-8.6.28-1) to launch on Gitpod
 
 ![Welcome Image](./.resources/welcome.jpeg "Welcome")
 
