@@ -14,11 +14,10 @@ WORKDIR /tmp
 
 ############################
 
-RUN wget https://cdn.hpccsystems.com/releases/CE-Candidate-8.8.8/bin/platform/hpccsystems-platform-community_8.8.8-1focal_amd64.deb
+RUN wget https://github.com/hpcc-systems/HPCC-Platform/releases/download/community_9.0.0-1/hpccsystems-platform-community_9.0.0-1focal_amd64_withsymbols.deb
+RUN sudo apt-get install -y --fix-missing ./hpccsystems-platform-community_9.0.0-1focal_amd64_withsymbols.deb
 
-RUN sudo apt-get install -y --fix-missing ./hpccsystems-platform-community_8.8.8-1focal_amd64.deb
-
-RUN rm -f hpccsystems-platform-community_8.8.8-1focal_amd64.deb
+RUN rm -f hpccsystems-platform-community_9.0.0-1focal_amd64_withsymbols.deb
 
 ###########################
 
