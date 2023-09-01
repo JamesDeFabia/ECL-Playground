@@ -17,10 +17,10 @@ WORKDIR /tmp
 #RUN rm -f hpccsystems-platform-community_9.0.0-1focal_amd64_withsymbols.deb
 ############################
 
-RUN wget hpccsystems-platform-community_9.2.12-1focal_amd64_withsymbols.deb
-RUN sudo apt-get install -y --fix-missing ./hpccsystems-platform-community_9.2.12-1focal_amd64_withsymbols.deb
+RUN wget https://cdn.hpccsystems.com/releases/CE-Candidate-9.2.16/bin/platform/hpccsystems-platform-community_9.2.16-1focal_amd64_withsymbols.deb
+RUN sudo apt-get install -y --fix-missing ./hpccsystems-platform-community_9.2.16-1focal_amd64_withsymbols.deb
 
-RUN rm -f hpccsystems-platform-community_9.2.12-1focal_amd64_withsymbols.deb
+RUN rm -f hpccsystems-platform-community_9.2.16-1focal_amd64_withsymbols.deb
 
 ###########################
 
