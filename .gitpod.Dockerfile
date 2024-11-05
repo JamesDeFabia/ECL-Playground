@@ -20,8 +20,8 @@ WORKDIR /tmp
 # RUN rm -f hpccsystems-platform-community_9.0.0-1focal_amd64_withsymbols.deb
 ############################
 
-RUN wget https://github.com/hpcc-systems/HPCC-Platform/releases/download/community_9.8.32-1/hpccsystems-platform-community_9.8.32-1focal_amd64_withsymbols.deb
-RUN sudo apt-get install -y --fix-missing ./hpccsystems-platform-community_9.8.32-1focal_amd64_withsymbols.deb
+RUN wget https://github.com/hpcc-systems/HPCC-Platform/releases/download/community_9.8.34-1/hpccsystems-platform-community_9.8.34-1focal_amd64_withsymbols.deb
+RUN sudo apt-get install -y --fix-missing ./hpccsystems-platform-community_9.8.34-1focal_amd64_withsymbols.deb
 
 RUN rm -f hpccsystems-platform-community_9.8.32-1focal_amd64_withsymbols.deb
 
