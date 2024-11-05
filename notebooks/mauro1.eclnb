@@ -1,0 +1,22 @@
+{
+    "id": "af9a20d0-6fbc-430f-95e5-2577ef82fb00",
+    "files": [],
+    "nodes": [
+        {
+            "id": "b9eea7f3-b938-489c-800c-c495d8400f29",
+            "name": "",
+            "value": "myDef:='Hello World';\nOUTPUT('Hello World1');\nOUTPUT(myDef);\nmyDef;",
+            "mode": "ecl",
+            "outputs": [
+                "UmVzdWx0XzIgPSAiSGVsbG8gV29ybGQiO1Jlc3VsdF8xID0gIkhlbGxvIFdvcmxkMSI7UmVzdWx0XzMgPSAiSGVsbG8gV29ybGQiOw=="
+            ]
+        },
+        {
+            "id": "b34f1f9b-9be7-41b6-87eb-83f2e79d8de7",
+            "name": "",
+            "value": "",
+            "mode": "md",
+            "outputs": []
+        }
+    ]
+}

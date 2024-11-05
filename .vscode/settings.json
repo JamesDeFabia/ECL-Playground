@@ -1,4 +1,5 @@
 {
     "ecl.forceProxySupport": true,
-    "ecl.launchConfiguration": "HPCC-Platform"
+    "ecl.launchConfiguration": "HPCC-Platform",
+    "ecl.targetCluster": {}
 }
